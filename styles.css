@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://milestone.co.id/uploads/beacon_2-02.jpg");
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+.play-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.play-button:hover {
+    background-color: #0056b3;
+}
